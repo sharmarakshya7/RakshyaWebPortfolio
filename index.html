@@ -264,6 +264,23 @@
   AOS.init({ offset: 0 });
 </script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+
+  var swiper = new Swiper(".mySwiper", {
+    loop: true,                     // 🔁 Enables infinite scroll
+    speed: 3000,                    // ⏱️ Controls speed of slide transition
+    autoplay: {
+      delay: 0,                     // 🚀 No delay between transitions
+      disableOnInteraction: false, // Keep autoplay after user interaction
+    },
+    slidesPerView: 'auto',
+    spaceBetween: 30,
+    freeMode: true,                 // 🆓 Smooth scrolling effect
+    freeModeMomentum: false,       // 🔁 Continuous no-stop scroll
+  });
+
+
+</script>
 <script src="./script.js"></script>
 
 </body>
